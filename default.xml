@@ -26,6 +26,8 @@
         remote="seL4"
     />
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
+    <project remote="kgamlath" name="debug.git" path="tools/debug"/>
+    
     <project name="camkes-apps-simple--devel.git" path="apps/simple" revision="master"/>
     <project name="camkes-apps-event--devel.git" path="apps/event" revision="master"/>
     <project name="camkes-apps-dataport--devel.git" path="apps/dataport"/>

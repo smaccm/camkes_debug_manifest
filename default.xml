@@ -57,9 +57,10 @@
 
     <project name="pruner.git" path="tools/pruner"/>
 
-    <project remote="kgamlath" name="debug.git" path="tools/debug"/>
+    <project remote="kgamlath" name="debug.git" path="tools/debug">
         <linkfile src="Kconfig" dest="Kconfig"/>
-        
+    </project>
+
     <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test"/>
 
     <project name="seL4_libs.git" path="projects/seL4_libs">

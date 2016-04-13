@@ -61,10 +61,6 @@
         <linkfile src="Kconfig" dest="Kconfig"/>
     </project>
 
-    <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test">
-        <linkfile src="ia32_gdb_test_defconfig" dest="configs/ia32_gdb_test_defconfig"/>
-    </project>
-    
     <project name="seL4_libs.git" path="projects/seL4_libs">
         <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
         <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport"/>
@@ -113,5 +109,8 @@
         <linkfile src="apps/cached-hardware-dataport" dest="apps/cached-hardware-dataport"/>
     </project>
 
+    <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test">
+        <linkfile src="ia32_gdb_test_defconfig" dest="configs/ia32_gdb_test_defconfig"/>
+    </project>
 
 </manifest>

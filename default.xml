@@ -53,14 +53,13 @@
         <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
         <linkfile src="capDL-tool" dest="tools/capDL"/>
         <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
-        <linkfile src="Kbuild" dest="Kbuild"/>
-        <linkfile src="Kconfig" dest="Kconfig"/>
     </project>
 
     <project name="pruner.git" path="tools/pruner"/>
 
     <project remote="kgamlath" name="debug.git" path="tools/debug"/>
-
+        <linkfile src="Kconfig" dest="Kconfig"/>
+        
     <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test"/>
 
     <project name="seL4_libs.git" path="projects/seL4_libs">

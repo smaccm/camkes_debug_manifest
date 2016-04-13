@@ -59,6 +59,7 @@
 
     <project remote="kgamlath" name="debug.git" path="tools/debug">
         <linkfile src="Kconfig" dest="Kconfig"/>
+        <linkfile src="ia32_gdb_test_defconfig" dest="configs/ia32_gdb_test_defconfig"/>
     </project>
 
     <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test"/>

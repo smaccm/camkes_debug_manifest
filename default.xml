@@ -53,6 +53,8 @@
         <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
         <linkfile src="capDL-tool" dest="tools/capDL"/>
         <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>
+        <linkfile src="Kbuild" dest="Kbuild"/>
+        <linkfile src="Kconfig" dest="Kconfig"/>
     </project>
 
     <project name="pruner.git" path="tools/pruner"/>
@@ -60,7 +62,7 @@
     <project remote="kgamlath" name="debug.git" path="tools/debug"/>
 
     <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test"/>
-    
+
     <project name="seL4_libs.git" path="projects/seL4_libs">
         <linkfile src="libsel4muslcsys" dest="libs/libsel4muslcsys"/>
         <linkfile src="libsel4platsupport" dest="libs/libsel4platsupport"/>
@@ -85,7 +87,6 @@
 
     <project name="camkes.git" path="projects/camkes">
         <!-- symlinks to make the project structure fit the build system -->
-        <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="configs" dest="configs"/>
         <linkfile src="tests" dest="tests"/>
         <linkfile src="compile_all.sh" dest="compile_all.sh"/>

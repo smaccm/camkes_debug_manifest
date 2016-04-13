@@ -27,7 +27,7 @@
     />
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
     <project remote="kgamlath" name="debug.git" path="tools/debug"/>
-    
+
     <project name="camkes-apps-simple--devel.git" path="apps/simple" revision="master"/>
     <project name="camkes-apps-event--devel.git" path="apps/event" revision="master"/>
     <project name="camkes-apps-dataport--devel.git" path="apps/dataport"/>
@@ -79,8 +79,6 @@
     </project>
 
     <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
-
-    <project remote="seL4-projects" name="global-components.git" path="components"/>
 
     <project name="camkes.git" path="projects/camkes">
         <!-- symlinks to make the project structure fit the build system -->

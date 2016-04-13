@@ -85,7 +85,6 @@
 
     <project name="camkes.git" path="projects/camkes">
         <!-- symlinks to make the project structure fit the build system -->
-        <linkfile src="configs" dest="configs"/>
         <linkfile src="tests" dest="tests"/>
         <linkfile src="compile_all.sh" dest="compile_all.sh"/>
         <linkfile src="apps/adder" dest="apps/adder"/>

@@ -97,21 +97,4 @@
 
     <project name="pruner.git" path="tools/pruner"/>
 
-    <project name="camkes-vm.git" path="projects/vm">
-        <!-- symlinks to make the project structure fit the build system -->
-        <linkfile src="Kconfig" dest="Kconfig"/>
-        <linkfile src="configs" dest="configs"/>
-        <linkfile src="libsel4cxx" dest="libs/libsel4cxx"/>
-        <linkfile src="liblwip" dest="libs/liblwip"/>
-        <linkfile src="tools/elf" dest="tools/elf"/>
-        <linkfile src="apps/vm" dest="apps/vm"/>
-        <linkfile src="apps/c162_twovm" dest="apps/c162_twovm"/>
-        <linkfile src="apps/optiplex9020_onevm" dest="apps/optiplex9020_onevm"/>
-        <linkfile src="apps/cma34cr_singlevm" dest="apps/cma34cr_singlevm"/>
-        <linkfile src="apps/cma34cr_twovm" dest="apps/cma34cr_twovm"/>
-        <linkfile src="apps/cma34cr_vchan" dest="apps/cma34cr_vchan"/>
-        <linkfile src="apps/cxx" dest="apps/cxx"/>
-        <linkfile src="README.md" dest="README.md"/>
-    </project>
-
 </manifest>

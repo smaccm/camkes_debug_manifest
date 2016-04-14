@@ -83,31 +83,6 @@
 
     <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
 
-    <project name="camkes.git" path="projects/camkes">
-        <!-- symlinks to make the project structure fit the build system -->
-        <linkfile src="tests" dest="tests"/>
-        <linkfile src="compile_all.sh" dest="compile_all.sh"/>
-        <linkfile src="apps/adder" dest="apps/adder"/>
-        <linkfile src="apps/epit" dest="apps/epit"/>
-        <linkfile src="apps/exchangestring" dest="apps/exchangestring"/>
-        <linkfile src="apps/filter" dest="apps/filter"/>
-        <linkfile src="apps/global-imports" dest="apps/global-imports"/>
-        <linkfile src="apps/hierarchical-attributes" dest="apps/hierarchical-attributes"/>
-        <linkfile src="apps/hierarchical-components" dest="apps/hierarchical-components"/>
-        <linkfile src="apps/keyboard" dest="apps/keyboard"/>
-        <linkfile src="apps/lockserver" dest="apps/lockserver"/>
-        <linkfile src="apps/multiassembly" dest="apps/multiassembly"/>
-        <linkfile src="apps/multiclient" dest="apps/multiclient"/>
-        <linkfile src="apps/multiplier" dest="apps/multiplier"/>
-        <linkfile src="apps/mutex" dest="apps/mutex"/>
-        <linkfile src="apps/rotate" dest="apps/rotate"/>
-        <linkfile src="apps/socket" dest="apps/socket"/>
-        <linkfile src="apps/swapcounter" dest="apps/swapcounter"/>
-        <linkfile src="apps/terminal" dest="apps/terminal"/>
-        <linkfile src="apps/uart" dest="apps/uart"/>
-        <linkfile src="apps/cached-hardware-dataport" dest="apps/cached-hardware-dataport"/>
-    </project>
-
     <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test">
         <linkfile src="ia32_gdb_test_defconfig" dest="configs/ia32_gdb_test_defconfig"/>
     </project>

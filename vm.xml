@@ -94,10 +94,8 @@
         <linkfile src="apps/cxx" dest="apps/cxx"/>
         <linkfile src="README.md" dest="README.md"/>
     </project>
-    
-    <project remote="kgamlath" name="debug.git" path="tools/debug">
-        <linkfile src="Kconfig" dest="Kconfig"/>
-    </project>
+
+    <project remote="kgamlath" name="debug.git" path="tools/debug"/>
 
     <project name="pruner.git" path="tools/pruner"/>
 

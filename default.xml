@@ -59,6 +59,7 @@
 
     <project remote="kgamlath" name="debug.git" path="tools/debug">
         <linkfile src="Kconfig" dest="Kconfig"/>
+	<linkfile src="qemu_debug.sh" dest="qemu_debug.sh"/>
     </project>
 
     <project name="seL4_libs.git" path="projects/seL4_libs">

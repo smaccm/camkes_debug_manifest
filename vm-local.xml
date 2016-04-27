@@ -93,6 +93,10 @@
 
     <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test"/>
     
+    <project remote="kgamlath" name="debug.git" path="tools/debug">
+        <linkfile src="qemu_debug.sh" dest="qemu_debug.sh"/>
+    </project>
+
     <project name="pruner.git" path="tools/pruner"/>
 
 </manifest>

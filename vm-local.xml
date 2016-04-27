@@ -91,9 +91,7 @@
         <linkfile src="README.md" dest="README.md"/>
     </project>
 
-    <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test">
-        <linkfile src="ia32_gdb_test_defconfig" dest="configs/ia32_gdb_test_defconfig"/>
-    </project>
+    <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test"/>
     
     <project name="pruner.git" path="tools/pruner"/>
 

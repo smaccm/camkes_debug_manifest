@@ -45,7 +45,7 @@
     </project>
 
     <project name="musllibc.git" path="libs/libmuslc" revision="sel4"/>
-    <project remote="SEL4PROJ" name="global-components.git" path="components"/>
+    <project remote="SEL4PROJ" name="global-components.git" path="projects/global-components"/>
 
     <project name="seL4_tools.git" path="projects/seL4_tools">
         <linkfile src="common-tool" dest="tools/common"/>

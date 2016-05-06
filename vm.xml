@@ -75,13 +75,12 @@
         <linkfile src="libsel4vka" dest="libs/libsel4vka"/>
         <linkfile src="libsel4vmm" dest="libs/libsel4vmm"/>
         <linkfile src="libsel4vspace" dest="libs/libsel4vspace"/>
-        <linkfile src="libsel4simple-default" dest="libs/libsel4simple-default"/>
     </project>
 
     <project name="camkes-vm.git" path="projects/vm">
         <!-- symlinks to make the project structure fit the build system -->
-        <linkfile src="Kconfig" dest="Kconfig"/>
-        <linkfile src="configs" dest="configs"/>
+        <linkfile src="Kconfig" dest="Kconfig.vm"/>
+        <linkfile src="configs" dest="configs/vm-configs"/>
         <linkfile src="libsel4cxx" dest="libs/libsel4cxx"/>
         <linkfile src="liblwip" dest="libs/liblwip"/>
         <linkfile src="tools/elf" dest="tools/elf"/>
@@ -96,6 +95,8 @@
     </project>
 
     <project remote="smaccm" name="camkes_debug_test_app.git" path="apps/gdb_test">
+        <linkfile src="Kconfig.vm" dest="Kconfig.debug"/>
+        <linkfile src="../../Kconfig.debug" dest="Kconfig"/>
         <linkfile src="ia32_gdb_test_defconfig" dest="configs/ia32_gdb_test_defconfig"/>
     </project>
 

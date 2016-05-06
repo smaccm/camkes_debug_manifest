@@ -95,12 +95,12 @@
     </project>
 
     <project remote="smaccm" name="camkes_debug_test_app.git" path="apps/gdb_test">
-        <linkfile src="Kconfig.vm" dest="Kconfig.debug"/>
-        <linkfile src="../../Kconfig.debug" dest="Kconfig"/>
         <linkfile src="ia32_gdb_test_defconfig" dest="configs/ia32_gdb_test_defconfig"/>
     </project>
 
     <project remote="smaccm" name="camkes_debug.git" path="tools/debug">
+        <linkfile src="Kconfig.vm" dest="Kconfig.debug"/>
+        <linkfile src="../../Kconfig.debug" dest="Kconfig"/>
         <linkfile src="qemu_debug.sh" dest="qemu_debug.sh"/>
     </project>
 

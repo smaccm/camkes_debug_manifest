@@ -41,7 +41,7 @@
         <linkfile src="kbuild-tool" dest="tools/kbuild"/>
     </project>
 
-    <project remote= "kgamlath" name="camkes-tool.git" path="tools/camkes">
+    <project remote= "kgamlath" name="camkes-tool.git" path="tools/camkes" revision="vm_x86">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="libsel4camkes" dest="libs/libsel4camkes"/>
@@ -49,7 +49,7 @@
         <linkfile src="docs/index.md" dest="README.md"/>
     </project>
 
-    <project remote="kgamlath" name="capdl.git" path="projects/capdl">
+    <project remote="kgamlath" name="capdl.git" path="projects/capdl" revision="vm_x86">
         <linkfile src="capdl-loader-app" dest="apps/capdl-loader-experimental"/>
         <linkfile src="capDL-tool" dest="tools/capDL"/>
         <linkfile src="python-capdl-tool" dest="tools/python-capdl"/>

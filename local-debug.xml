@@ -22,7 +22,7 @@
     />
 	
     <remote name="katuah"
-        fetch="../katuah"
+        fetch="../~katuah"
     />
 
     <!-- default revision for each project, and name of the remote -->

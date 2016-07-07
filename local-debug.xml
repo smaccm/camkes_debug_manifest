@@ -35,7 +35,7 @@
     <project name="camkes-apps-event--devel.git" path="apps/event" revision="master"/>
     <project name="camkes-apps-dataport--devel.git" path="apps/dataport"/>
 
-    <project name="seL4.git" path="kernel">
+    <project remote="katuah" name="seL4.git" path="kernel" revision="debug-registers">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
@@ -61,7 +61,7 @@
 
     <project name="pruner.git" path="tools/pruner"/>
 
-    <project remote="kgamlath" name="debug.git" path="tools/debug">
+    <project remote="kgamlath" name="debug.git" path="tools/debug" revision="debug_register">
         <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="qemu_debug.sh" dest="qemu_debug.sh"/>
     </project>

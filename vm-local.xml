@@ -30,7 +30,7 @@
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
-    <project name="camkes-tool.git" path="tools/camkes">
+    <project remote="kgamlath" name="camkes-tool.git" path="tools/camkes" revision="feature/debug">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="docs/index.md" dest="camkes_README.md"/>
@@ -96,10 +96,6 @@
     </project>
 
     <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test"/>
-    
-    <project remote="kgamlath" name="debug.git" path="tools/debug" revision="experimental">
-        <linkfile src="qemu_debug.sh" dest="qemu_debug.sh"/>
-    </project>
 
     <project name="pruner.git" path="tools/pruner"/>
 

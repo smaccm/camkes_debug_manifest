@@ -86,6 +86,7 @@
 
     <project remote="kgamlath" name="gdb_test.git" path="projects/gdb_test">
         <linkfile src="configs" dest="configs"/>
+        <linkfile src="Kconfig" dest="Kconfig"/>
         <linkfile src="apps/gdb_test" dest="apps/gdb_test"/>
     </project>
 

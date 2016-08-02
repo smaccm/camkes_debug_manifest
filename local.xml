@@ -84,7 +84,7 @@
         <linkfile src="libsel4vspace" dest="libs/libsel4vspace"/>
     </project>
 
-    <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test">
+    <project remote="kgamlath" name="gdb_test.git" path="projects/gdb_test">
         <linkfile src="configs" dest="configs"/>
         <linkfile src="apps/gdb_test" dest="apps/gdb_test"/>
     </project>

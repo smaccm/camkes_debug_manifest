@@ -85,7 +85,8 @@
     </project>
 
     <project remote="kgamlath" name="gdb_test.git" path="apps/gdb_test">
-        <linkfile src="ia32_gdb_testconfig" dest="configs/ia32_gdb_testconfig"/>
+        <linkfile src="configs" dest="configs"/>
+        <linkfile src="apps/gdb_test" dest="apps/gdb_test"/>
     </project>
 
 </manifest>

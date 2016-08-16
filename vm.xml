@@ -13,31 +13,28 @@
 <manifest>
     <!-- fetch is the path relative to the manifest repo path to get other repositories from -->
     <remote name="seL4"
-        fetch="."
-    />
-
-    <remote name="kgamlath"
-        fetch="."
-    />
-
-    <remote name="katuah"
-        fetch="."
+	fetch="../seL4"
     />
 
     <remote name="SEL4PROJ"
         fetch="../SEL4PROJ"
     />
+
+    <remote name="smaccm"
+	fetch="."
+    />
+
     <!-- default revision for each project, and name of the remote -->
     <default revision="master"
-        remote="seL4"
+        remote="smaccm"
     />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project remote="katuah" name="seL4.git" path="kernel" revision="gtt_cpuid_x86_debug_registers">
+    <project name="seL4.git" path="kernel" revision="gtt_cpuid_x86_debug_registers">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
-    <project remote="kgamlath" name="camkes-tool.git" path="tools/camkes" revision="gtt_deliverable_debug">
+    <project name="camkes-tool.git" path="tools/camkes" revision="gtt_deliverable_debug">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="docs/index.md" dest="camkes_README.md"/>

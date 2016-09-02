@@ -33,11 +33,11 @@
     />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project remote="katuah" name="seL4.git" path="kernel" revision="debug-registers">
+    <project remote="katuah" name="seL4.git" path="kernel" revision="debug-registers-arm">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
-    <project remote="kgamlath" name="camkes-tool.git" path="tools/camkes" revision="gtt_deliverable_debug_no_rt">
+    <project remote="kgamlath" name="camkes-tool.git" path="tools/camkes" revision="gtt_deliverable_debug">
         <linkfile src="toplevel.mk" dest="Makefile"/>
         <linkfile src="Kbuild" dest="Kbuild"/>
         <linkfile src="docs/index.md" dest="camkes_README.md"/>
@@ -69,7 +69,7 @@
         <linkfile src="libutils" dest="libs/libutils"/>
     </project>
 
-    <project name="seL4_libs" path="projects/seL4_libs">
+    <project name="seL4_libs" path="projects/seL4_libs" revision="gtt_deliverable">
         <linkfile src="libsel4allocman" dest="libs/libsel4allocman"/>
         <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
         <linkfile src="libsel4debug" dest="libs/libsel4debug"/>

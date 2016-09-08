@@ -87,7 +87,7 @@
     <project name="camkes-vm.git" path="projects/vm" revision="gtt_deliverable">
         <!-- symlinks to make the project structure fit the build system -->
         <linkfile src="Kconfig" dest="Kconfig"/>
-        <linkfile src="configs" dest="configs"/>
+        <linkfile src="configs/cma34cr_singlevm_defconfig" dest="configs/cma34cr_singlevm_defconfig"/>
         <linkfile src="libsel4cxx" dest="libs/libsel4cxx"/>
         <linkfile src="liblwip" dest="libs/liblwip"/>
         <linkfile src="tools/elf" dest="tools/elf"/>
@@ -100,6 +100,11 @@
         <linkfile src="apps/cxx" dest="apps/cxx"/>
         <linkfile src="README.md" dest="README.md"/>
     </project>
+
+    <project remote="kgamlath" name="gdb_test.git" path="projects/gdb_test">
+	<linkfile src="apps/gdb_test" dest="apps/gdb_test"/>
+	<linkfile src="configs/ia32_gdb_test_defconfig dest="ia32_gdb_test_defconfig"/>
+    </project>	
 
     <project name="camkes-vm-manifest.git" path="projects/vm-manifest" revision="gtt_deliverable">
         <linkfile src="GVR-BOT-README.md" dest="GVR-BOT-README.md"/>

@@ -103,7 +103,7 @@
 
     <project remote="kgamlath" name="gdb_test.git" path="projects/gdb_test">
 	<linkfile src="apps/gdb_test" dest="apps/gdb_test"/>
-	<linkfile src="configs/ia32_gdb_test_defconfig dest="ia32_gdb_test_defconfig"/>
+	<linkfile src="configs/ia32_gdb_test_defconfig" dest="configs/ia32_gdb_test_defconfig"/>
     </project>	
 
     <project name="camkes-vm-manifest.git" path="projects/vm-manifest" revision="gtt_deliverable">

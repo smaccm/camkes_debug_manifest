@@ -33,7 +33,7 @@
     />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project remote="katuah" name="seL4.git" path="kernel" revision="debug-registers">
+    <project remote="katuah" name="seL4.git" path="kernel" revision="debug-registers-arm">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
@@ -69,7 +69,7 @@
         <linkfile src="libutils" dest="libs/libutils"/>
     </project>
 
-    <project name="seL4_libs" path="projects/seL4_libs">
+    <project name="seL4_libs" path="projects/seL4_libs" revision="9604d836ebfdc991db9f50938f11c76cb399ff54">
         <linkfile src="libsel4allocman" dest="libs/libsel4allocman"/>
         <linkfile src="libsel4bench" dest="libs/libsel4bench"/>
         <linkfile src="libsel4debug" dest="libs/libsel4debug"/>

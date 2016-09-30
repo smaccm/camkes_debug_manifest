@@ -30,7 +30,7 @@
     />
 
     <!-- list of 'projects' (i.e repositories), path is relative to the path in remote above -->
-    <project name="seL4.git" path="kernel" revision="gtt_cpuid_x86_debug_registers">
+    <project name="seL4.git" path="kernel" revision="gtt_deliverable">
         <linkfile src="libsel4" dest="libs/libsel4"/>
     </project>
 
